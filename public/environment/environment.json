@@ -1,0 +1,8 @@
+{
+  "API_URL": "https://app.canary.ithacanoemon.tech/api/v1",
+  "WS_URL": "wss://app.canary.ithacanoemon.tech/wss",
+  "POINTS_URL": "https://app.canary.ithacanoemon.tech/api/points/v3",
+  "KYC_URL": "https://app.canary.ithacanoemon.tech",
+  "GRAFANA_URL": "https://dashboard.canary.ithacanoemon.tech/",
+  "TRADING_URL": "https://app.canary.ithacanoemon.tech"
+}

@@ -1,0 +1,30 @@
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+  gap: rem(2);
+
+  @media (min-width: $mobile) {
+    gap: rem(5);
+  }
+}
+
+.receiveTitle {
+  font-size: rem(16);
+  color: var(--white);
+  font-weight: 400;
+}
+
+.message {
+  @include font-size("text-xs", "regular");
+  color: #68f4a0;
+  margin-bottom: rem(10);
+
+  & p {
+    color: #68f4a0;
+    margin-top: 10px;
+  }
+
+  & p:last-child {
+    font-style: italic;
+  }
+}

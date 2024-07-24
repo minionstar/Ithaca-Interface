@@ -1,0 +1,86 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+
+  button {
+    width: rem(140);
+  }
+
+  .headerCell {
+    color: var(--white-60);
+    @include font-size("text-xs", "regular");
+  }
+
+  .cellEnd {
+    margin-right: 5px;
+  }
+}
+
+.separator {
+  border-top: rem(1) solid var(--white-rgba-10);
+  margin-bottom: rem(13);
+  margin-top: rem(13);
+}
+
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: rem(17);
+  margin-top: rem(17);
+}
+
+.apiKeyContainer {
+  display: flex;
+  align-items: center;
+}
+
+.cell {
+  color: white;
+  @include font-size("text-md", "regular");
+  flex: 4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.emptyTable {
+  text-align: center;
+  @include spacing(padding, 6, "top+bottom");
+  @include font-size("text-md", "regular");
+}
+
+.modalContainer {
+  gap: rem(20);
+  display: flex;
+  flex-direction: column;
+}
+
+.delete,
+.copy {
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: rem(5);
+  @include font-size("text-xs", "bold");
+  flex: 1;
+}
+
+.copy {
+  color: var(--green-30);
+}
+
+.delete {
+  color: var(--red-20);
+}
+
+.label {
+  font-family: $lato;
+  @include font-size("text-xs", "regular");
+  cursor: pointer;
+  color: var(--white-60);
+}
+
+.isOpacity {
+  opacity: 0.1;
+}

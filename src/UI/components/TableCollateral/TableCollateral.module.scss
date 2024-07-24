@@ -1,0 +1,23 @@
+.valueContainer {
+  display: flex;
+  align-items: flex-end;
+  gap: rem(5);
+
+  p:first-child {
+    color: var(--white-60);
+    font-size: rem(10) !important;
+  }
+
+  p:last-child {
+    line-height: 1 !important;
+    font-size: rem(16);
+  }
+
+  .receiveValue {
+    color: var(--green-30) !important;
+  }
+
+  .payValue {
+    color: var(--red-20) !important;
+  }
+}
